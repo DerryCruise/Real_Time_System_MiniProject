@@ -1,0 +1,226 @@
+{
+  "rows": [
+    {
+      "label": "baseline",
+      "mechanism": "baseline",
+      "param": 0,
+      "rel_std_ms": 8.395376350091563,
+      "rel_max_ms": 47.24989999842366,
+      "comp_std_ms": 10.426479112213336,
+      "comp_max_ms": 51.2377936035919,
+      "hit_pct": 88.0
+    },
+    {
+      "label": "load duty=0.25",
+      "mechanism": "load",
+      "param": 0.25,
+      "rel_std_ms": 1.1643027835152313,
+      "rel_max_ms": 12.949100003170289,
+      "comp_std_ms": 1.9712036443724035,
+      "comp_max_ms": 20.1667624002148,
+      "hit_pct": 98.8
+    },
+    {
+      "label": "load duty=0.50",
+      "mechanism": "load",
+      "param": 0.5,
+      "rel_std_ms": 6.448038073885514,
+      "rel_max_ms": 43.743799997901064,
+      "comp_std_ms": 6.730200116696816,
+      "comp_max_ms": 40.4061980029219,
+      "hit_pct": 88.4
+    },
+    {
+      "label": "load duty=0.75",
+      "mechanism": "load",
+      "param": 0.75,
+      "rel_std_ms": 1.3375584851382787,
+      "rel_max_ms": 4.511599994730275,
+      "comp_std_ms": 1.5841001310106233,
+      "comp_max_ms": 5.818575596844373,
+      "hit_pct": 100.0
+    },
+    {
+      "label": "load duty=1.00",
+      "mechanism": "load",
+      "param": 1.0,
+      "rel_std_ms": 5.616992470132175,
+      "rel_max_ms": 20.897999999869967,
+      "comp_std_ms": 5.830234356200354,
+      "comp_max_ms": 14.64120560360609,
+      "hit_pct": 50.8
+    },
+    {
+      "label": "stall p=0.02, 4 ms",
+      "mechanism": "stall_prob",
+      "param": 0.02,
+      "rel_std_ms": 0.7059006390567546,
+      "rel_max_ms": 5.195799996436101,
+      "comp_std_ms": 1.433551224242125,
+      "comp_max_ms": 6.926392802270132,
+      "hit_pct": 99.2
+    },
+    {
+      "label": "stall p=0.05, 4 ms",
+      "mechanism": "stall_prob",
+      "param": 0.05,
+      "rel_std_ms": 10.401813615364519,
+      "rel_max_ms": 53.282800002489196,
+      "comp_std_ms": 11.974003516982089,
+      "comp_max_ms": 55.72479520199703,
+      "hit_pct": 90.4
+    },
+    {
+      "label": "stall p=0.10, 4 ms",
+      "mechanism": "stall_mag",
+      "param": 4,
+      "rel_std_ms": 1.873993331515574,
+      "rel_max_ms": 12.168200000305662,
+      "comp_std_ms": 3.2168456550714426,
+      "comp_max_ms": 15.089883603504877,
+      "hit_pct": 91.60000000000001
+    },
+    {
+      "label": "stall p=0.20, 4 ms",
+      "mechanism": "stall_prob",
+      "param": 0.2,
+      "rel_std_ms": 18.806892926055493,
+      "rel_max_ms": 103.61830000590987,
+      "comp_std_ms": 20.371981048542334,
+      "comp_max_ms": 97.48180799899266,
+      "hit_pct": 62.0
+    },
+    {
+      "label": "stall p=0.40, 4 ms",
+      "mechanism": "stall_prob",
+      "param": 0.4,
+      "rel_std_ms": 90.70859916652428,
+      "rel_max_ms": 249.63430000731023,
+      "comp_std_ms": 91.25284497285062,
+      "comp_max_ms": 175.89213719783586,
+      "hit_pct": 43.2
+    },
+    {
+      "label": "stall p=0.10, 1 ms",
+      "mechanism": "stall_mag",
+      "param": 1,
+      "rel_std_ms": 7.900592061167581,
+      "rel_max_ms": 39.76280000788379,
+      "comp_std_ms": 9.75920136464031,
+      "comp_max_ms": 40.17087919698669,
+      "hit_pct": 73.2
+    },
+    {
+      "label": "stall p=0.10, 2 ms",
+      "mechanism": "stall_mag",
+      "param": 2,
+      "rel_std_ms": 3.1676843312632665,
+      "rel_max_ms": 18.00969999865626,
+      "comp_std_ms": 5.1540338012866815,
+      "comp_max_ms": 20.912174399796648,
+      "hit_pct": 80.80000000000001
+    },
+    {
+      "label": "stall p=0.10, 8 ms",
+      "mechanism": "stall_mag",
+      "param": 8,
+      "rel_std_ms": 16.846427421812752,
+      "rel_max_ms": 66.16720000485654,
+      "comp_std_ms": 18.717474005952738,
+      "comp_max_ms": 58.48645120245057,
+      "hit_pct": 53.6
+    },
+    {
+      "label": "stall p=0.10, 12 ms",
+      "mechanism": "stall_mag",
+      "param": 12,
+      "rel_std_ms": 23.87210124678376,
+      "rel_max_ms": 112.95600000448758,
+      "comp_std_ms": 24.57305288911479,
+      "comp_max_ms": 106.35545720215309,
+      "hit_pct": 67.2
+    },
+    {
+      "label": "normal sigma=0.10C",
+      "mechanism": "var_normal",
+      "param": 0.1,
+      "rel_std_ms": 67.84988736929115,
+      "rel_max_ms": 282.53770000563236,
+      "comp_std_ms": 69.53944610416347,
+      "comp_max_ms": 253.38723120334916,
+      "hit_pct": 57.199999999999996
+    },
+    {
+      "label": "normal sigma=0.25C",
+      "mechanism": "var_normal",
+      "param": 0.25,
+      "rel_std_ms": 4.823310017707325,
+      "rel_max_ms": 25.858000003499804,
+      "comp_std_ms": 7.005340179345085,
+      "comp_max_ms": 28.28944279893782,
+      "hit_pct": 79.60000000000001
+    },
+    {
+      "label": "normal sigma=0.50C",
+      "mechanism": "var_normal",
+      "param": 0.5,
+      "rel_std_ms": 15.574075136011956,
+      "rel_max_ms": 94.37479999935027,
+      "comp_std_ms": 17.304625100286508,
+      "comp_max_ms": 93.96319000195955,
+      "hit_pct": 77.60000000000001
+    },
+    {
+      "label": "normal sigma=1.00C",
+      "mechanism": "var_normal",
+      "param": 1.0,
+      "rel_std_ms": 14.580738616724076,
+      "rel_max_ms": 74.44180000282353,
+      "comp_std_ms": 16.900197280210577,
+      "comp_max_ms": 69.83425600331974,
+      "hit_pct": 56.8
+    },
+    {
+      "label": "lognormal sigma=0.25",
+      "mechanism": "var_lognormal",
+      "param": 0.25,
+      "rel_std_ms": 5.56941315721558,
+      "rel_max_ms": 36.98959999921499,
+      "comp_std_ms": 8.103537757323025,
+      "comp_max_ms": 40.23303560167553,
+      "hit_pct": 80.0
+    },
+    {
+      "label": "lognormal sigma=0.50",
+      "mechanism": "var_lognormal",
+      "param": 0.5,
+      "rel_std_ms": 4.397908256491242,
+      "rel_max_ms": 42.41210000414867,
+      "comp_std_ms": 5.92188124363881,
+      "comp_max_ms": 47.897610396932606,
+      "hit_pct": 94.39999999999999
+    },
+    {
+      "label": "lognormal sigma=1.00",
+      "mechanism": "var_lognormal",
+      "param": 1.0,
+      "rel_std_ms": 4.501856380006859,
+      "rel_max_ms": 37.75090000126502,
+      "comp_std_ms": 6.668391187344565,
+      "comp_max_ms": 42.08588719685229,
+      "hit_pct": 87.2
+    },
+    {
+      "label": "lognormal sigma=1.50",
+      "mechanism": "var_lognormal",
+      "param": 1.5,
+      "rel_std_ms": 33.02718955566102,
+      "rel_max_ms": 146.3097000023117,
+      "comp_std_ms": 35.19255191813506,
+      "comp_max_ms": 123.69662359941867,
+      "hit_pct": 36.4
+    }
+  ],
+  "baseline_std_ms": 8.395376350091563,
+  "high_hit_high_jitter": []
+}

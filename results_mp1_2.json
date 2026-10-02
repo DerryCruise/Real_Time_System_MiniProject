@@ -1,0 +1,63 @@
+{
+  "collatz_worst_n": 77031,
+  "collatz_worst_steps": 350,
+  "rows": [
+    {
+      "target": "linear_search",
+      "structure": "early-exit branch",
+      "rand_mean_us": 211.70934991823742,
+      "rand_p99_us": 896.7080022557637,
+      "rand_max_us": 17807.800002628937,
+      "adv_median_us": 260.0999978312757,
+      "adv_max_us": 11476.300001959316,
+      "adv_max_exceeds_random_max": false,
+      "adv_median_exceeds_random_max": false,
+      "adv_median_over_random_max": 0.014605959062482594,
+      "margin_pct": 53.84615384615383,
+      "rec_random_only_us": 27396.615388659902,
+      "rec_all_us": 27396.615388659902,
+      "rand_outlier_flag": true,
+      "rand_max_over_p99": 19.859084515618836,
+      "adv_outlier_flag": true,
+      "adv_max_over_p99": 7.0750692284629535
+    },
+    {
+      "target": "collatz_steps",
+      "structure": "data-dependent loop count",
+      "rand_mean_us": 32.85614999185782,
+      "rand_p99_us": 147.47400186024598,
+      "rand_max_us": 1737.999999022577,
+      "adv_median_us": 50.80000119050965,
+      "adv_max_us": 671.0000016028062,
+      "adv_max_exceeds_random_max": false,
+      "adv_median_exceeds_random_max": false,
+      "adv_median_over_random_max": 0.02922899955067822,
+      "margin_pct": 53.84615384615383,
+      "rec_random_only_us": 2673.8461523424257,
+      "rec_all_us": 2673.8461523424257,
+      "rand_outlier_flag": true,
+      "rand_max_over_p99": 11.785128070706293,
+      "adv_outlier_flag": true,
+      "adv_max_over_p99": 2.5398099600521635
+    },
+    {
+      "target": "packet_handler",
+      "structure": "nested conditionals in a loop",
+      "rand_mean_us": 16.51539981685346,
+      "rand_p99_us": 190.79999772657175,
+      "rand_max_us": 672.2000034642406,
+      "adv_median_us": 426.8000011506956,
+      "adv_max_us": 2843.3999978005886,
+      "adv_max_exceeds_random_max": true,
+      "adv_median_exceeds_random_max": false,
+      "adv_median_over_random_max": 0.6349300787729025,
+      "margin_pct": 53.84615384615383,
+      "rec_random_only_us": 1034.153851483447,
+      "rec_all_us": 4374.461535077828,
+      "rand_outlier_flag": true,
+      "rand_max_over_p99": 3.5230608567802233,
+      "adv_outlier_flag": false,
+      "adv_max_over_p99": 1.38255367790916
+    }
+  ]
+}
